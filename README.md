@@ -1,6 +1,6 @@
-# Game GUI: An IntelliJ IDEA Plugin
-Game GUI is an IntelliJ IDEA plugin developed in Kotlin with the aim of creating a gamified environment to support scripted GUI testing techniques. It has been developed as a **Master Thesis** work at _Politecnico di Torino_ by Paolo Stefanut Bodnarescul with the aid of the [Software Engineering Research Group](https://softeng.polito.it/).<br/><br/>
-To take full advantage of the plugin's gamified environment, it must be used along with the [Game GUI Java Library](https://github.com/Paolobd/gamification-library) in a project that performs scripted GUI testing by exploiting _Selenium WebDriver_.
+# GIPGUT: An IntelliJ IDEA Plugin
+Gamification Intellij Plugin for GUi Testing (GIPGUT) is an IntelliJ IDEA plugin developed in Kotlin with the aim of creating a gamified environment to support scripted GUI testing techniques. It has been developed as a **Master Thesis** work at _Politecnico di Torino_ by Paolo Stefanut Bodnarescul with the aid of the [Software Engineering Research Group](https://softeng.polito.it/).<br/><br/>
+To take full advantage of the plugin's gamified environment, it must be used along with the [GIPGUT Java Library](https://github.com/SoftengPoliTo/GIPGUT-library) in a project that performs scripted GUI testing by exploiting _Selenium WebDriver_.
 The plugin features:
 - Achievements that track the user actions with the Selenium WebDriver. Each time an achievement is completed some points are awarded to the user.
 - A user profile page that can be customized at will. The user can unlock new icons and titles to equip and they can also display some of the unlocked achievements.
@@ -44,7 +44,7 @@ To create the plugin zip file from the project one of the following Gradle tasks
 
 At that point, the zip file is found in the <kbd>build/distributions</kbd> folder.
 
-Remember also to add the [Game GUI Java Library](https://github.com/Paolobd/gamification-library) to the Selenium WebDriver project by following the instructions.
+Remember also to add the [GIPGUT Java Library](https://github.com/SoftengPoliTo/GIPGUT-library) to the Selenium WebDriver project by following the instructions.
 
 ## Example
 A project example with the library already imported and ready to use can be found [here](https://github.com/Paolobd/gamification-plugin-example). The plugin still needs to be installed in your IDE.
